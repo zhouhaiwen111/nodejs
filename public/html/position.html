@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		
+		<link rel = "stylesheet" href ="/lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/position.css" />
+	</head>
+	<body>
+		<!--头部-->
+   			<header></header>
+		<!--中间时间 -->
+			<div class="clock">
+				<img src="/imgs/time.png"><span class="timer"></span><span class="word">温馨提示：你的IE版本太低了，建议你升级IE10</span>
+			</div>
+		<!--左边导航 -->
+			<div class="Find"></div>
+		<!--右边主体-->
+		<div class="right">
+			<div class="container">
+				<p class="p2"><img src="/imgs/home.png">你现在所在的位置是：<a href="/html/position.html">供应商管理页面</a></p>
+				<form class="form-inline">
+				  
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputPassword3">Password</label>
+				    供应商名称：<input type=text" class="form-control" id="username" placeholder="请输入供应商的名称">
+				  </div>
+				  
+				  <button type="button" class="btn btn-default chaxun">查询</button>
+				  <img src="/imgs/search.png" class="search">
+				  <img src="/imgs/tianjia.png" class="addd">
+				  <button type="button" class="btn btn-primary tianjia" data-toggle="modal" data-target="#addPosModal">添加用户</button>
+				</form>
+				<table class="table table-bordered table-striped position-table">
+	  				<thead>
+	  					<tr>
+	  						<th>供应商编码</th>
+	  						<th>供应商名称</th>
+	  						<th>联系人</th>
+	  						<th>联系电话</th>
+	  						<th>联系地址</th>
+	  						<th>传真</th>
+	  						<th>创建时间</th>
+	  						<th>操作</th>
+	  					</tr>
+	  						
+	  				</thead>
+	  				<tbody>
+	  					
+	  				</tbody>
+				</table>
+			</div>
+		</div>
+		<!--添加模态框-->
+		<div class="modal fade" id="addPosModal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+	        <h4 class="modal-title" id="addPosModalLabel">添加供应商</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<div class="alert alert-danger hidden login-error">添加失败</div>
+	        <form class="add-pos-form">
+	        <div class="form-group">
+			    <label for="addPosCompany">供应商编码</label>
+			    <input type="text" class="form-control" name="number" id="number" placeholder="请输入供应商编码">
+			  </div>
+	          <div class="form-group">
+			    <label for="addPosCompany">供应商名称</label>
+			    <input type="text" class="form-control" name="title" id="title" placeholder="请输入供应商名称">
+			  </div>
+			  <div class="form-group">
+			    <label for="addPosLogo">联系人</label>
+			    <input type="text" class="form-control" name="people" id="people" placeholder="请输入联系人">
+			  </div>
+			  <div class="form-group">
+			    <label for="addPosName">联系电话</label>
+			    <input type="text" class="form-control" name="tel" id="tel" placeholder="请输入联系电话">
+			  </div>
+			  <div class="form-group">
+			    <label for="addPosSalary">联系地址</label>
+			    <input type="text" class="form-control" name="address" id="address" placeholder="请输入联系地址">
+			  </div>
+			  <div class="form-group">
+			    <label for="addPosAddress">传真</label>
+			    <input type="text" class="form-control" name="fox" id="fox" placeholder="请输入传真">
+			  </div>
+			  <div class="form-group">
+			    <label for="addPosAddress">创建时间</label>
+			    <input type="text" class="form-control" name="ctime" id="ctime" placeholder="请输入时间">
+			  </div>
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+	        <button type="button" class="btn btn-primary btn-add-pos">保存</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!--分页-->
+	<nav>
+		  <ul class="pagination ">
+		    <li class="disabled">
+		      <a href="#">
+		        <span>&laquo;</span>
+		      </a>
+		    </li>
+		    <li class="active"><a href="#">1</a></li>
+		    <li><a href="#">2</a></li>
+		    <li><a href="#">3</a></li>
+		    <li><a href="#">4</a></li>
+		    <li><a href="#">5</a></li>
+		    <li>
+		      <a href="#" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		      </a>
+		    </li>
+		  </ul>
+		</nav>
+		<script src="/lib/jquery/jquery-1.11.3.js"></script>
+		<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/js/time.js"></script>
+		<script src="/js/common/header.js"></script>
+		<script src="/js/common/leftnav.js"></script>
+		<script src="/js/position/updateModel.js"></script>
+		<script src="/js/position/position.js"></script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+	height:100%;
+	width: 100%;
+	background: url(../imgs/login_bg.jpg) no-repeat;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+	
+}
+h3{
+	font-size: 25px;
+	color: white;
+	margin-top:93px;
+	margin-left: 530px;
+	font-weight: normal;
+}
+.register-tp{
+	position: absolute;
+	top:93px;
+	left: 448px;
+}
+.register-form{
+	width: 240px;
+	margin-left: 510px;
+	margin-top:112px;
+	position: absolute;
+	
+}

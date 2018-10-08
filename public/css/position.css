@@ -1,0 +1,50 @@
+.right .container{
+	width:1045px;
+	margin-left: 35px;
+	background: #f6fafd;
+}
+.right .container .p2{
+	border: 1px solid #CCCCCC;
+	height: 27px;
+	padding-left: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	
+}
+.right .container form{
+	margin:14px 0;
+	position: relative;
+	
+}
+.right .container form .search{
+	position: absolute;
+	top:9px;
+	left: 316px;
+}
+.right .container form .addd{
+	position: absolute;
+	top:7px;
+	left: 480px;
+}
+.right .container .chaxun{
+	width: 100px;
+	height: 30px;
+	background: #87c212;
+	color: white;
+	margin-left: 22px;
+	font-size: 13px;
+}
+.right .container .tianjia{
+	width: 130px;
+	height: 30px;
+	background: #47acf1;
+	color: white;
+	margin-left: 60px;
+	font-size: 13px;
+}
+.right .container table{
+	position: relative;
+}
+

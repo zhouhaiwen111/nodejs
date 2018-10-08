@@ -1,0 +1,107 @@
+.navbar{
+	background: #5f9cdb;
+}
+.logo{
+	display: inline-block;
+	height: 40px;
+	overflow: hidden;
+}
+.logo .fla{
+	margin-top: -26px;
+	margin-left: 46px;
+	font-size: 22px;
+	float: left;
+	color: white;
+}
+.clock{
+	height: 35px;
+	width: 100%;
+	
+	margin-top:-20px;
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+}
+.clock img{
+	position: absolute;
+	left: 31px;
+	top: 7px;
+}
+.clock .timer{
+	display: inline-block;
+	margin-left: 60px;
+	margin-top:5px;
+	
+}
+.clock .word{
+	display: inline-block;
+	float: right;
+	margin-top:5px;
+	margin-right: 10px;
+}
+.left{
+	width: 166px;
+	height: 530px;
+	background: #f5f5f5;
+	overflow: hidden;
+	border-right: 1px solid #91b5d7;
+	float: left;
+}
+.left .wrap{
+	width: 141px;
+	height: 245px;
+	border: 1px solid #CCCCCC;
+	margin-left: 11px;
+	margin-top: 11px;
+}
+.left .wrap ul li{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 13px;
+	position: relative;
+}
+.left .wrap ul li:nth-child(1){
+	background: #60b3e7;
+	color: white;
+	font-size: 17px;
+	height: 40px;
+	line-height: 40px;
+}
+.left .wrap ul li .pic1{
+	position: absolute;
+	top:17px;
+	left: -1px;
+}
+.left .wrap ul li .pic2{
+	position: absolute;
+	top:7px;
+	left: 0;
+}
+.left .wrap ul li .pic3{
+	position: absolute;
+	top:7px;
+	left: 2px;
+}
+.left .wrap ul li .pic4{
+	position: absolute;
+	top:8px;
+	left: 1px;
+}
+.left .wrap ul li .pic5{
+	position: absolute;
+	top:13px;
+	left: -1px;
+}
+.right{
+	float: left;
+}
+.right .img1{
+	margin-top:55px;
+	margin-left: 70px;
+	float: left;
+}
+.right .p1{
+	float: left;
+	margin-top:75px;
+	margin-left: 60px;
+}
